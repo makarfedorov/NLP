@@ -1,5 +1,5 @@
 def pmi(df, positive=True):
-    '''функция для расчета pint-wise 
+    '''функция для расчета point-wise 
     mutual information'''
     col_totals = df.sum(axis=0)
     total = col_totals.sum()
